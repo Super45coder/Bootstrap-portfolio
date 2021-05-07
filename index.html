@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>Sir Tim Berners-Lee</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-bar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Aarush Goradia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="#nav-bar">
+            <ul class="nav navbar-nav">
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#writings">Writings</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section id="welcome">
+        <img src="stbl.jpg" class="profile img-circle">
+        <h1>I Am
+            <br>
+            <span id="name">Tim Berners-Lee</span>
+        </h1>
+        <h2> I am the founder of www: World Wide Web</h2>
+    </section>
+
+
+    <section id="bio">
+        <h1>Hi!</h1>
+        <div class="line"></div>
+        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory.
+
+            He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.
+
+            In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br><br>In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.
+
+            In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users.
+
+            The Web was first used for e-commerce in 1997.</p>
+    </section>
+
+    <hr>
+    <section id="videos">
+        <h1>Videos</h1>
+        <div class="line"></div>
+        <br>
+        <iframe src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video1" height="500"> </iframe>
+        <br>
+        <br>
+
+        <iframe height="500" src="https://www.youtube.com/embed/J8hzJxb0rpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video2"></iframe>
+    </section>
+
+    <hr>
+    <section id="work" style="width: 100%;">
+        <h1>WORK</h1>
+        <div class="line"></div>
+        <iframe class="work_iframe" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0" style="width: 80%; margin: 10px;"></iframe>
+
+    </section>
+
+    <hr>
+
+    <section id="writings">
+        <h1 style="f">WRITINGS</h1>
+        <div class="line"></div>
+        <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30" target="_blank">30 years on, what’s next ForTheWeb?</a>
+        <br>
+        <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
+    </section>
+    <hr>
+
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+        <!--ADD bootstrap classes to contact_1 div -->
+        <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <a href="mailto:my@gmail.com?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+            </a>
+
+            <a href="#">
+                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a>
+        </div>
+    
+        <div class="contacts_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <form>
+        <span>Name : </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" required>
+        <br/><br/>
+        <span>Feedback : </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="feedback" required>
+            <br/><br/>
+            <input type="submit" value="submit" class="btn btn-success">
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
